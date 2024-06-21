@@ -1,8 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/ZBCUegTZF7M?si=ubt0vk70lSjt6DCs" target="_blank">
-      <img src="https://i.postimg.cc/5NR9bxFM/Sora-README.png" alt="Project Banner">
-    </a>
+      <img src="" alt="Project Banner">
   <br />
 
   <h3 align="center">Video Sharing App</h3>
@@ -72,8 +70,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/aora.git
-cd aora
+git clone {this repository url}
 ```
 
 **Installation**
@@ -100,4 +97,4 @@ npx expo start -c
 
 Download the [Expo Go](https://expo.dev/go) app onto your device, then use it to scan the QR code from Terminal and run.
 
-Alternatively, you can also use [BlueStacks 5](https://www.bluestacks.com/bluestacks-5.html) to emulate Android device on your computer.
+Alternatively, you can also use [BlueStacks 5](https://www.bluestacks.com/bluestacks-5.html) to emulate an Android device on your computer.
