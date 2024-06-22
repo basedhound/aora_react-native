@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 //
 import { images } from "../../constants";
 import SearchInput from "../../components/SearchInput";
+import Trending from "../../components/Trending";
 
 //!
 const Home = () => {
@@ -11,13 +12,19 @@ const Home = () => {
       <FlatList
         data={[{ id: 1 }, { id: 2 }, { id: 3 }]}
         keyExtractor={(item) => item.$id}
-        renderItem={({ item }) => <Text className="text-white text-3xl">{item.id}</Text>}
+        renderItem={({ item }) => (
+          <Text className="text-white text-3xl">{item.id}</Text>
+        )}
         ListHeaderComponent={() => (
           <View className="my-6 px-4 space-y-6">
             <View className="justify-between items-start flex-row mb-6">
               <View>
-                <Text className="font-pmedium text-sm text-gray-100">Welcome Back</Text>
-                <Text className="text-2xl font-psemibold text-white">Frank</Text>
+                <Text className="font-pmedium text-sm text-gray-100">
+                  Welcome Back
+                </Text>
+                <Text className="text-2xl font-psemibold text-white">
+                  Frank
+                </Text>
               </View>
               <View className="mt-1.5">
                 <Image
@@ -30,8 +37,12 @@ const Home = () => {
 
             <SearchInput />
 
-
-
+            <View className="w-full flex-1 pt-5 pb-8">
+              <Text className="text-lg font-pregular text-gray-100 mb-3">
+                Latest Videos
+              </Text>
+              <Trending posts={[{id: 1}, {id: 2}, {id: 3}] ?? []} />
+            </View>
           </View>
         )}
       />
