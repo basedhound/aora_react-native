@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { View, Text, FlatList, Image, RefreshControl } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 //
