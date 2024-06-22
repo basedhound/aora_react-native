@@ -5,10 +5,17 @@ import { StatusBar } from "expo-status-bar";
 //
 import CustomButton from "../components/CustomButton";
 import { images } from "../constants";
+import { useGlobalContext } from "../context/GlobalProvider";
 
 //!
 export default function App() {
-  return (
+  // Constants
+  const { loading, isLogged} = useGlobalContext();
+  // if (!loading && isLogged) 
+  
+  return <Redirect href="/home" />;
+
+  /* return (
     <SafeAreaView className="h-full bg-primary">
       <ScrollView
         contentContainerStyle={{
@@ -50,10 +57,10 @@ export default function App() {
             title="Continue with Email"
             handlePress={() => router.push("/sign-in")}
             containerStyles="w-full mt-7"
-          />
-        </View>
+          />          
+        </View>    
       </ScrollView>
       <StatusBar backgroundColor="#161622" style="light" />
     </SafeAreaView>
-  );
+  ); */
 }

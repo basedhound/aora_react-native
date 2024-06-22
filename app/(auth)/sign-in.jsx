@@ -1,26 +1,31 @@
 import { useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { View, Text, Dimensions, ScrollView, Image } from "react-native";
+import { View, Text, ScrollView, Dimensions, Alert, Image } from "react-native";
 import { Link } from "expo-router";
 //
 import { images } from "../../constants";
 import { CustomButton, FormField } from "../../components";
+import { getCurrentUser, signIn } from "../../lib/appwrite";
+import { useGlobalContext } from "../../context/GlobalProvider";
 
 //!
 const SignIn = () => {
   // Constants
+  const { setUser, setIsLogged } = useGlobalContext();
+  const [isSubmitting, setSubmitting] = useState(false);
   const [form, setForm] = useState({
     email: "",
     password: "",
   });
-  const [isSubmitting, setSubmitting] = useState(false);
 
   // Submit handler
   const submit = async () => {
     if (form.email === "" || form.password === "") {
       Alert.alert("Error", "Please fill in all fields");
     }
+
     setSubmitting(true);
+
     try {
       await signIn(form.email, form.password);
       const result = await getCurrentUser();
@@ -82,7 +87,7 @@ const SignIn = () => {
             <Link
               href="/sign-up"
               className="text-lg font-psemibold text-secondary">
-              Signup
+              Sign up
             </Link>
           </View>
         </View>
