@@ -11,10 +11,9 @@ import { useGlobalContext } from "../context/GlobalProvider";
 export default function App() {
   // Constants
   const { loading, isLogged} = useGlobalContext();
-  if (!loading && isLogged) 
-  return <Redirect href="/home" />;
+  if (!loading && isLogged) return <Redirect href="/home" />;
 
-  /* return (
+  return (
     <SafeAreaView className="h-full bg-primary">
       <ScrollView
         contentContainerStyle={{
@@ -61,5 +60,5 @@ export default function App() {
       </ScrollView>
       <StatusBar backgroundColor="#161622" style="light" />
     </SafeAreaView>
-  ); */
+  );
 }
