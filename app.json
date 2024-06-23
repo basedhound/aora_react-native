@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "Aora",
-    "scheme":"aora",
-    "slug": "aora_react-native",
+    "scheme": "aora",
+    "slug": "aora-video",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,15 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "967b5024-c002-436e-9469-f043e987fa46"
+      }
+    },
+    "owner": "basedhound"
   }
 }
