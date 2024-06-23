@@ -21,21 +21,12 @@ const Profile = () => {
     setIsLogged(false);
     router.replace("/sign-in");
   };
-
   return (
     <SafeAreaView className="bg-primary h-full">
       <FlatList
         data={posts}
         keyExtractor={(item) => item.$id}
-        renderItem={({ item }) => (
-          <VideoCard
-            title={item.title}
-            thumbnail={item.thumbnail}
-            video={item.video}
-            creator={item.creator.username}
-            avatar={item.creator.avatar}
-          />
-        )}
+        renderItem={({ item }) => <VideoCard video={item} />}
         ListEmptyComponent={() => (
           <EmptyState
             title="No Videos Found"
@@ -46,8 +37,7 @@ const Profile = () => {
           <View className="w-full flex justify-center items-center mt-6 mb-12 px-4">
             <TouchableOpacity
               onPress={logout}
-              className="flex w-full items-end mb-10"
-            >
+              className="flex w-full items-end mb-10">
               <Image
                 source={icons.logout}
                 resizeMode="contain"
