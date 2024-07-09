@@ -1,6 +1,6 @@
 <div align="center">
     <a href="" target="_blank">
-      <img src="assets/design/preview.webp" alt="Project Banner">
+      <img src="assets/design/preview.png" alt="Project Banner">
     </a>
   <h3 align="center">Video Sharing Mobile App</h3>
 </div>
