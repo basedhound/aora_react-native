@@ -1,35 +1,38 @@
 <div align="center">
-  <br />
-      <img src="" alt="Project Banner">
-  <br />
-
-  <h3 align="center">Video Sharing App</h3>
-
+    <a href="" target="_blank">
+      <img src="public/design/preview.webp" alt="Project Banner">
+    </a>
+  <h3 align="center">Video Sharing Mobile App</h3>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+##  <br /> 📋 <a name="table">Table of Contents</a>
 
 - ✨ [Introduction](#introduction)
 - ⚙️ [Tech Stack](#tech-stack)
 - 📝 [Features](#features)
 - 🚀 [Quick Start](#quick-start)
 
-## <a name="introduction">✨ Introduction</a>
+##  <br /> <a name="introduction">✨ Introduction</a>
 
-Built with React Native for seamless user experiences, Animatable for captivating animations, and integrated with the dependable backend systems of Appwrite,
-this app showcases impressive design and functionality, enabling seamless sharing of AI videos within the community.
+**[EN]** Built with React Native for seamless user experiences, Animatable for captivating animations, and integrated with the dependable backend systems of Appwrite, this app showcases modern design and functionality, enabling seamless sharing of videos within the community.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
+**[FR]** Construite avec React Native pour une expérience utilisateur fluide, "Animatable" pour des animations captivantes, et intégrée aux systèmes backend fiables d'Appwrite, cette application présente un design moderne et des fonctionnalités facilitant le partage de vidéos au sein d'une communauté.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
 
-- React Native
-- Expo
-- Nativewind
-- Animatable
-- Appwrite
+Certainly! Here's an expanded list with a bit more detail for each technology:
 
-## <a name="features">📝 Features</a>
+- **React Native** is a JavaScript framework that enables developers to build mobile applications using React and React-like components. It allows for the development of cross-platform applications that can run on both iOS and Android platforms, leveraging a single codebase.
+
+- **Expo** is a comprehensive platform and toolchain built around React Native that accelerates the development of mobile applications. Expo provides a set of tools and services including a development client, build services, and access to native APIs, simplifying the development and deployment process.
+
+- **Nativewind** is a utility library that integrates Tailwind CSS utility classes into React Native development. It brings the ease of use and productivity benefits of Tailwind CSS to mobile app styling, enabling developers to rapidly prototype and style their applications without needing to write traditional CSS.
+
+- **Animatable** is a library designed for creating animations in React Native applications with ease. Animatable provides a straightforward API for defining animations such as fades, slides, and transforms, enhancing the visual appeal and user experience of mobile applications.
+
+- **Appwrite** is an open-source backend platform that offers a wide range of backend services including authentication, database management, file storage, and cloud functions. It is designed to simplify backend development for web and mobile applications, providing a unified API and robust security features. Appwrite supports scalability and real-time updates, making it suitable for a variety of application use cases.
+
+## <br/> <a name="features">📝 Features</a>
 
 👉 **Onboarding Screen**: Engaging graphics and clear instructions welcome users to the app.
 
@@ -51,15 +54,12 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Animations**: Dynamic animations using the Animatable library to enhance user interaction and engagement throughout the app's UI.
 
-and many more, including code architecture and reusability
 
-## <a name="quick-start">🚀 Quick Start</a>
+## <br /> <a name="quick-start">🚀 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
 
-**Dashboards**
-
-**Prerequisites**
+<br/>**Prerequisites**
 
 Make sure you have the following installed on your machine:
 
@@ -67,33 +67,31 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
+<br/>**Cloning the Repository**
 
 ```bash
-git clone {this repository url}
+git clone {git remote URL}
 ```
 
-**Installation**
+<br/>**Installation**
 
-Install the project dependencies using npm:
+Let's install the project dependencies, from your terminal, run:
 
 ```bash
 npm install
+# or
+yarn install
 ```
 
-**Running the Project**
+<br/>**Running the Project**
+
+Installation will take a minute or two, but once that's done, you should be able to run the following command:
 
 ```bash
 npm start
-```
-
-or
-
-```bash
+# or
 npx expo start -c
 ```
-
-**Expo Go**
 
 Download the [Expo Go](https://expo.dev/go) app onto your device, then use it to scan the QR code from Terminal and run.
 
