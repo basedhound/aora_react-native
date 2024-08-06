@@ -1,6 +1,6 @@
 <div align="center">
     <a href="" target="_blank">
-      <img src="assets/design/preview.png" style="width: 50%;" alt="Project Banner">
+      <img src="assets/design/preview-1.png" style="width: 50%;" alt="Project Banner">
     </a>
   <h3 align="center">Video Sharing Mobile App</h3>
 </div>
@@ -20,17 +20,15 @@
 
 ##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
 
-Certainly! Here's an expanded list with a bit more detail for each technology:
+- [**React Native**](https://reactnative.dev/docs/getting-started) is a JavaScript framework that enables developers to build mobile applications using React and React-like components. It allows for the development of cross-platform applications that can run on both iOS and Android platforms, leveraging a single codebase.
 
-- **React Native** is a JavaScript framework that enables developers to build mobile applications using React and React-like components. It allows for the development of cross-platform applications that can run on both iOS and Android platforms, leveraging a single codebase.
+- [**Expo**](https://docs.expo.dev/) is a comprehensive platform and toolchain built around React Native that accelerates the development of mobile applications. Expo provides a set of tools and services including a development client, build services, and access to native APIs, simplifying the development and deployment process.
 
-- **Expo** is a comprehensive platform and toolchain built around React Native that accelerates the development of mobile applications. Expo provides a set of tools and services including a development client, build services, and access to native APIs, simplifying the development and deployment process.
+- [**Nativewind**](https://www.nativewind.dev/) is a utility library that integrates Tailwind CSS utility classes into React Native development. It brings the ease of use and productivity benefits of Tailwind CSS to mobile app styling, enabling developers to rapidly prototype and style their applications without needing to write traditional CSS.
 
-- **Nativewind** is a utility library that integrates Tailwind CSS utility classes into React Native development. It brings the ease of use and productivity benefits of Tailwind CSS to mobile app styling, enabling developers to rapidly prototype and style their applications without needing to write traditional CSS.
+- [**Animatable**](https://www.npmjs.com/package/react-native-animatable) is a library designed for creating animations in React Native applications with ease. Animatable provides a straightforward API for defining animations such as fades, slides, and transforms, enhancing the visual appeal and user experience of mobile applications.
 
-- **Animatable** is a library designed for creating animations in React Native applications with ease. Animatable provides a straightforward API for defining animations such as fades, slides, and transforms, enhancing the visual appeal and user experience of mobile applications.
-
-- **Appwrite** is an open-source backend platform that offers a wide range of backend services including authentication, database management, file storage, and cloud functions. It is designed to simplify backend development for web and mobile applications, providing a unified API and robust security features. Appwrite supports scalability and real-time updates, making it suitable for a variety of application use cases.
+- [**Appwrite**](https://appwrite.io/docs) is an open-source backend platform that offers a wide range of backend services including authentication, database management, file storage, and cloud functions. It is designed to simplify backend development for web and mobile applications, providing a unified API and robust security features. Appwrite supports scalability and real-time updates, making it suitable for a variety of application use cases.
 
 ## <br/> <a name="features">📝 Features</a>
 
